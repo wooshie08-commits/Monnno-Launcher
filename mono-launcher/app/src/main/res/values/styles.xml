@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Fade" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:activityOpenExitAnimation">@android:anim/fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:activityCloseExitAnimation">@android:anim/fade_out</item>
+        <item name="android:taskOpenEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:taskOpenExitAnimation">@android:anim/fade_out</item>
+        <item name="android:taskToFrontEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:taskToFrontExitAnimation">@android:anim/fade_out</item>
+        <item name="android:taskToBackEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:taskToBackExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="Mono" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/Fade</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>
